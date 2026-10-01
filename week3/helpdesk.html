@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">  
+<html lang="en">
 <head>
   <meta charset="utf-8" />
   <meta name="description" content="CWA Help Desk Appointment Form" />
@@ -18,12 +18,12 @@
 <p>The Help Desk is located in ATC620. Open 10:30 to 19:00 Monday to Friday</p>
 <p>Check Blackboard for when CWA tutors will be there.</p>
 
-<form method="post" action="process.php">
+<form method="post" action="http://mercury.swin.edu.au/it000000/formtest.php">
 
 	<fieldset>
 		<legend>Student details</legend>
 		<p><label for="student_id">Student ID</label> 
-			<input type="text" name="student_id" id="student_id" required="required" pattern="[a-zA-Z ][0-9]{7,10}" />
+			<input type="text" name="student_id" id="student_id" required="required" pattern="[0-9]{7,10}" />
 		</p>
 		<p><label for="given_name">Given Name</label> 
 			<input type="text" name="given_name" id="given_name" maxlength="15" required="required" pattern="[A-Za-z\s]{1,15}" />
@@ -38,10 +38,10 @@
 			<input type="radio" id="cos10011" name="unit" value="COS10011" required="required" />
 		</p>
 		<p><label for="cos60004">COS60004</label> 
-			<input type="radio" id="cos60004" name="unit" value="COS60004" />
+			<input type="radio" id="cos60004" name="unit" value="COS60004" required="required" />
 		</p>
 		<p><label for="cos60007">COS60007</label> 
-			<input type="radio" id="cos60007" name="unit" value="COS60007" />
+			<input type="radio" id="cos60007" name="unit" value="COS60007" required="required" />
 		</p>
 	</fieldset>
 
