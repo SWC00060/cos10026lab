@@ -26,9 +26,9 @@
 			<input type="text" name="student_id" id="student_id" required="required" pattern="[0-9]{7,10}" />
 		</p>
 		<p><label for="given_name">Given Name</label> 
-			<input type="text" name="given_name" id="given_name" maxlength="15" required="required" pattern="[A-Za-z\s]{1,15}" />
+			<input type="text" name="given_name" id="given_name" required="required" pattern="[A-Za-z]{1,15}" />
 			<label for="family_name">Family Name</label> 
-			<input type="text" name="family_name" id="family_name" maxlength="15" required="required" pattern="[A-Za-z\s]{1,15}" />
+			<input type="text" name="family_name" id="family_name" required="required" pattern="[A-Za-z]{1,15}" />
 		</p>
 	</fieldset>
 
@@ -69,7 +69,7 @@
 			<input type="checkbox" id="mysql" name="issue[]" value="MySQL" />
 		</p>
 		<p><label for="description">Description of Issue</label><br />
-			<textarea id="description" name="description" rows="4" cols="40" placeholder="Write description of your problem here..."></textarea>
+			<textarea id="description" name="description"  placeholder="Write description of your problem here..."></textarea>
 		</p>
 	</fieldset>
 
@@ -87,6 +87,5 @@
 	<input type="reset" value="Reset form" />
 
 </form>
-
 </body>
 </html>
