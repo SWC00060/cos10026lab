@@ -35,11 +35,9 @@ aside, footer {
     font-style: italic;
 }
 
-table, th, td {
+table th td{
     border: 1px solid black;
 }
-
-
 .special {
     color: darkorange;
     font-weight: bold;
