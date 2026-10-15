@@ -35,7 +35,9 @@ aside, footer {
     font-style: italic;
 }
 
-table th td{
+table, 
+th,
+td{
     border: 2px solid black;
     padding: 4px;
     border-collapse: collapse;
