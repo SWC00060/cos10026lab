@@ -14,7 +14,6 @@ aside:hover {
 nav ul {
     list-style: none;
 }
-/* Aside box model styling */
 aside {
     border: 4px inset purple;
     border-radius: 14px;
@@ -54,8 +53,12 @@ table {
 footer {
     clear: both;
 }
-#images {
+#images 
+{
     float: right;
+}
+#hyperlinks {
+    float: left;
 }
 #images figure {
     border: 2px solid #ccc;
@@ -64,6 +67,8 @@ footer {
 #lists, #tables, #hyperlinks, #images {
     width: 48%;
     text-align: center;
+
+
 }
 
 ol, ul, dl {
