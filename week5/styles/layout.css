@@ -23,7 +23,6 @@ aside {
     background: url(images/fade.jpg) repeat-x top left;
 }
 
-/* Header box model styling */
 header {
     border: 1px solid darkgray;
     margin: 0.5em;
@@ -31,32 +30,23 @@ header {
     background-color: lightgray;
     text-align: center;
 }
-
 footer {
     border-top: 4px double; 
 }
-/* Resize and float the aside */
 aside {
     width: 30%;
     float: right;
     box-shadow: 10px 10px 5px #aaaaaa;
 }
-
 #lists {
     float: left;
 }
-
-
 table {
     margin: auto;
 }
-
-/* Float tables section to the right */
 #tables {
     float: right;
 }
-
-/* Clearances for layout flow */
 #hyperlinks {
     clear: both;
 }
@@ -64,12 +54,9 @@ table {
 footer {
     clear: both;
 }
-
-
 #images {
     float: right;
 }
-
 #images figure {
     border: 2px solid #ccc;
 }
